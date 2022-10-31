@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cypress": "^10.6.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.5"
+  },
+  "cy:run:smoke":"cypress run --spec=cypress/e2e/TestSuites.cy.js"
+}
